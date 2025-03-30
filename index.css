@@ -1,0 +1,56 @@
+
+a {
+    text-decoration: none;    /* アンダーバーを非表示 */
+}
+a:link {
+    /* リンク未訪問 */
+    text-decoration: none; /* 下線 消す */
+}
+
+a:visited {
+    /* リンク訪問済み */
+    text-decoration: none; /* 下線 消す */
+}
+
+.category1{
+    /*  background-color: hsl(245, 90%, 58%);   背景の色 */
+    /*  color: #fff;                 /* 文字の色 */
+    color:blue;                   /* 文字の色 */
+    font-weight: bold;             /* 文字の太さを太く */
+}
+.category2 a {
+    color: blue;
+}
+.category2 a:visited {
+    color: blue;
+}
+
+
+.category2{
+    /*  background-color: hsl(245, 90%, 58%);   背景の色 */
+    /*  color: #fff;                 /* 文字の色 */
+    color:rgb(13, 149, 3);          /* 文字の色 */
+    /* font-weight: bold;              文字の太さを太く */
+    margin-left:10px;               /*左側に余白*/
+}
+.category2 a {
+    color: rgb(13, 149, 3);
+}
+.category2 a:visited {
+    color: rgb(13, 149, 3);
+}
+
+
+.category3{
+    /*  background-color: hsl(245, 90%, 58%);   背景の色 */
+    /*  color: #fff;                 /* 文字の色 */
+    color:rgb(247, 153, 86);        /* 文字の色 */
+    /* font-weight: bold;              文字の太さを太く */
+    margin-left:30px;               /*左側に余白*/
+}
+.category3 a {
+    color: rgb(247, 153, 86);
+}
+.category3 a:visited {
+    color: rgb(247, 153, 86);
+}
